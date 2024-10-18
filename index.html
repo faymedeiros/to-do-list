@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Daily To-Do List</h1>
+        <div class="grid">
+            <div class="day-block" id="monday">
+                <h2>Monday</h2>
+                <textarea></textarea>
+                <button onclick="save('monday')">Salvar</button>
+                <button onclick="edit('monday')">Editar</button>
+                <button onclick="remove('monday')">Remover</button>
+            </div>
+            <div class="day-block" id="tuesday">
+                <h2>Tueday</h2>
+                <textarea></textarea>
+                <button onclick="save('tuesday')">Salvar</button>
+                <button onclick="edit('tuesday')">Editar</button>
+                <button onclick="remove('tuesday')">Remover</button>
+            </div>
+            <div class="day-block" id="wednesday">
+                <h2>Wednesday</h2>
+                <textarea></textarea>
+                <button onclick="save('wednesday')">Salvar</button>
+                <button onclick="edit('wednesday')">Editar</button>
+                <button onclick="remove('wednesday')">Remover</button>
+            </div>
+            <div class="day-block" id="thursday">
+                <h2>Thursday</h2>
+                <textarea></textarea>
+                <button onclick="save('thursday')">Salvar</button>
+                <button onclick="edit('thursday')">Editar</button>
+                <button onclick="remove('thursday')">Remover</button>
+            </div>
+            <div class="day-block" id="friday">
+                <h2>Friday</h2>
+                <textarea></textarea>
+                <button onclick="save('friday')">Salvar</button>
+                <button onclick="edit('friday')">Editar</button>
+                <button onclick="remove('friday')">Remover</button>
+            </div>
+            <div class="day-block" id="weekend">
+                <h2>Weekend</h2>
+                <textarea></textarea>
+                <button onclick="save('weekend')">Salvar</button>
+                <button onclick="edit('weekend')">Editar</button>
+                <button onclick="remove('weekend')">Remover</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
